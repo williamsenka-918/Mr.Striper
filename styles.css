@@ -377,7 +377,7 @@ nav.main-nav a.active {
 
 .hero-photo {
   position: relative;
-  aspect-ratio: 1081 / 488;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
 }
 
