@@ -387,23 +387,6 @@ nav.main-nav a.active {
   color: var(--white);
 }
 
-.hero-photo-tag {
-  position: absolute;
-  z-index: 1;
-  right: 24px;
-  bottom: 24px;
-  background: var(--yellow);
-  color: var(--black);
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 7px 12px;
-  border-radius: 6px;
-  box-shadow: 0 8px 18px -8px rgba(0, 0, 0, 0.5);
-}
-
 /* ---------- Alternating content sections ---------- */
 .split {
   display: grid;
