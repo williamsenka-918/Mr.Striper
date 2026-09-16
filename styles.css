@@ -219,14 +219,14 @@ section {
 
 .logo-word {
   font-family: var(--font-head);
-  font-style: italic;
-  font-size: 24px;
+  font-size: 28px;
   color: var(--black);
-  letter-spacing: 0.01em;
-  transform: skewX(-4deg);
+  letter-spacing: -0.01em;
+  transform: skewX(-6deg);
   padding-bottom: 3px;
   border-bottom: 3px solid var(--black);
   margin-bottom: 3px;
+  -webkit-text-stroke: 0.6px var(--black);
 }
 
 .logo-sub {
