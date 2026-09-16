@@ -776,6 +776,20 @@ nav.main-nav a.active {
   margin-top: 28px;
 }
 
+.area-map {
+  max-width: 780px;
+  margin: 32px auto 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid var(--yellow);
+  box-shadow: var(--shadow);
+}
+
+.area-map img {
+  width: 100%;
+  height: auto;
+}
+
 /* ---------- Footer ---------- */
 footer.site-footer {
   background: var(--black);
