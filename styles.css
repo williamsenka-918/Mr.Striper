@@ -202,7 +202,7 @@ section {
   border-radius: 12px;
   overflow: hidden;
   flex-shrink: 0;
-  border: 2px solid var(--yellow);
+  border: 2px solid var(--black);
 }
 
 .logo-badge img {
@@ -221,7 +221,7 @@ section {
   font-family: var(--font-head);
   font-style: italic;
   font-size: 24px;
-  color: var(--white);
+  color: var(--black);
   letter-spacing: 0.01em;
   transform: skewX(-4deg);
 }
@@ -232,7 +232,7 @@ section {
   font-size: 0.64rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--yellow);
+  color: var(--black);
   margin-top: 3px;
 }
 
@@ -241,7 +241,7 @@ header.site-header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--black);
+  background: var(--yellow);
 }
 
 .header-inner {
@@ -264,7 +264,7 @@ nav.main-nav a {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--black);
   padding: 6px 2px;
   border-bottom: 2px solid transparent;
   transition: border-color 0.15s ease, color 0.15s ease;
@@ -272,8 +272,7 @@ nav.main-nav a {
 
 nav.main-nav a:hover,
 nav.main-nav a.active {
-  border-color: var(--yellow);
-  color: var(--yellow);
+  border-color: var(--black);
 }
 
 .header-actions {
@@ -289,14 +288,14 @@ nav.main-nav a.active {
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 0.88rem;
-  color: var(--white);
+  color: var(--black);
   white-space: nowrap;
 }
 
 .header-phone svg {
   width: 16px;
   height: 16px;
-  fill: var(--yellow);
+  fill: var(--black);
 }
 
 .nav-toggle {
@@ -313,7 +312,7 @@ nav.main-nav a.active {
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--white);
+  background: var(--black);
   position: relative;
   transition: 0.2s ease;
 }
@@ -1053,12 +1052,12 @@ footer.site-footer {
     top: 65px;
     left: 0;
     right: 0;
-    background: var(--black);
+    background: var(--yellow);
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
     padding: 10px 24px 20px;
-    border-bottom: 3px solid var(--yellow);
+    border-bottom: 3px solid var(--black);
     transform: translateY(-130%);
     opacity: 0;
     pointer-events: none;
@@ -1074,14 +1073,14 @@ footer.site-footer {
   nav.main-nav a {
     width: 100%;
     padding: 12px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   }
 
   .header-phone span.phone-text {
     display: none;
   }
 
-  .header-actions .btn-primary {
+  .header-actions .btn-navy {
     display: none;
   }
 
