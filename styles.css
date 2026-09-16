@@ -242,7 +242,6 @@ header.site-header {
   top: 0;
   z-index: 100;
   background: var(--black);
-  border-bottom: 3px solid var(--yellow);
 }
 
 .header-inner {
