@@ -519,37 +519,65 @@ nav.main-nav a.active {
 }
 
 .service-card {
-  background: var(--white);
-  border: 1px solid var(--border-soft);
+  position: relative;
+  overflow: hidden;
   border-radius: 12px;
-  padding: 30px 26px;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  aspect-ratio: 4 / 3.4;
+  padding: 22px 22px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(13, 13, 13, 0.15) 0%, rgba(13, 13, 13, 0.4) 45%, rgba(13, 13, 13, 0.94) 100%);
+  z-index: 0;
+}
+
+.service-card > * {
+  position: relative;
+  z-index: 1;
 }
 
 .service-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow);
-  border-color: var(--yellow);
 }
 
+.card-photo-1 { background-image: url("images/hero-lot.webp"); background-position: center 35%; }
+.card-photo-2 { background-image: url("images/stalls-and-stops.webp"); background-position: 60% 40%; }
+.card-photo-3 { background-image: url("images/hero-lot.webp"); background-position: 85% 65%; }
+.card-photo-4 { background-image: url("images/stalls-and-stops.webp"); background-position: 20% 70%; }
+.card-photo-5 { background-image: url("images/hero-lot.webp"); background-position: 30% 85%; }
+.card-photo-6 { background-image: url("images/stalls-and-stops.webp"); background-position: 75% 25%; }
+
 .service-icon {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 10px;
   background: var(--yellow);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 6px 16px -6px rgba(0, 0, 0, 0.6);
 }
 
 .service-icon svg {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   stroke: var(--black);
 }
 
 .service-card h3 {
+  color: var(--white);
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 1.06rem;
@@ -557,7 +585,7 @@ nav.main-nav a.active {
 }
 
 .service-card p {
-  color: var(--gray-mid);
+  color: rgba(255, 255, 255, 0.85);
   font-size: 0.95rem;
   margin-bottom: 0;
 }
