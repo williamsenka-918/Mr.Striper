@@ -224,6 +224,9 @@ section {
   color: var(--black);
   letter-spacing: 0.01em;
   transform: skewX(-4deg);
+  padding-bottom: 3px;
+  border-bottom: 3px solid var(--black);
+  margin-bottom: 3px;
 }
 
 .logo-sub {
