@@ -387,6 +387,15 @@ nav.main-nav a.active {
   color: var(--white);
 }
 
+.hero-trust {
+  margin: 18px 0 0;
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
 /* ---------- Alternating content sections ---------- */
 .split {
   display: grid;
@@ -590,6 +599,33 @@ nav.main-nav a.active {
   margin-bottom: 0;
 }
 
+/* ---------- Trust strip ---------- */
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+.trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.trust-item .service-icon {
+  margin-bottom: 0;
+}
+
+.trust-item span {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 20ch;
+}
+
 /* ---------- Owner section ---------- */
 .owner-section {
   background: linear-gradient(160deg, var(--black) 0%, var(--charcoal) 130%);
@@ -790,6 +826,30 @@ nav.main-nav a.active {
   height: auto;
 }
 
+/* ---------- Final CTA ---------- */
+.final-cta {
+  background: var(--black);
+  color: var(--white);
+  text-align: center;
+  padding: 84px 0;
+}
+
+.final-cta h2 {
+  color: var(--white);
+  font-size: 2.1rem;
+}
+
+.final-cta p {
+  max-width: 620px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.02rem;
+}
+
+.cta-row-center {
+  justify-content: center;
+}
+
 /* ---------- Footer ---------- */
 footer.site-footer {
   background: var(--black);
@@ -896,7 +956,8 @@ footer.site-footer {
     order: initial;
   }
 
-  .services-grid {
+  .services-grid,
+  .trust-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -951,7 +1012,8 @@ footer.site-footer {
     display: block;
   }
 
-  .services-grid {
+  .services-grid,
+  .trust-grid {
     grid-template-columns: 1fr;
   }
 
