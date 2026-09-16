@@ -553,10 +553,10 @@ nav.main-nav a.active {
   box-shadow: var(--shadow);
 }
 
-.card-photo-1 { background-image: url("images/hero-lot.webp"); background-position: center 35%; }
-.card-photo-2 { background-image: url("images/stalls-and-stops.webp"); background-position: 60% 40%; }
-.card-photo-3 { background-image: url("images/stalls-and-stops.webp"); background-position: 20% 70%; }
-.card-photo-4 { background-image: url("images/hero-lot.webp"); background-position: 85% 65%; }
+.card-photo-1 { background-image: url("images/hero-lot.webp"); background-position: center 30%; }
+.card-photo-2 { background-image: url("images/restriping-lines.webp"); background-position: center 30%; }
+.card-photo-3 { background-image: url("images/ada-stalls.webp"); background-position: center 35%; }
+.card-photo-4 { background-image: url("images/fire-lane-curb.webp"); background-position: 60% 50%; }
 
 .service-icon {
   width: 44px;
