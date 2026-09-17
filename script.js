@@ -50,6 +50,46 @@ function initSite() {
       header.style.boxShadow = 'none';
     }
   });
+
+  // Contact form submission (Web3Forms)
+  var contactForm = document.getElementById('contactForm');
+  if (contactForm) {
+    var submitBtn = document.getElementById('contactSubmitBtn');
+    var statusEl = document.getElementById('formStatus');
+    var submitBtnDefaultText = submitBtn.textContent;
+
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+      statusEl.textContent = '';
+      statusEl.className = 'form-status';
+
+      fetch(contactForm.action, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(contactForm)
+      })
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (!data.success) {
+            throw new Error(data.message || 'Submission failed.');
+          }
+          contactForm.reset();
+          statusEl.textContent = "Thanks! Your request is in — we'll be in touch soon.";
+          statusEl.className = 'form-status form-status-success';
+        })
+        .catch(function () {
+          statusEl.textContent = 'Something went wrong sending that. Please call or email us directly instead.';
+          statusEl.className = 'form-status form-status-error';
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+          submitBtn.textContent = submitBtnDefaultText;
+        });
+    });
+  }
 }
 
 if (document.readyState === 'loading') {

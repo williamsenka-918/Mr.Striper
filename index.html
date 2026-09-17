@@ -426,8 +426,50 @@
 
 <div class="stripe-divider" aria-hidden="true"></div>
 
+<!-- CONTACT FORM -->
+<section class="section-dark" id="contact">
+  <div class="wrap">
+    <div class="services-head">
+      <div class="eyebrow on-dark">Get In Touch</div>
+      <h2>Get Your Free Parking Lot Quote</h2>
+      <p>Tell us a bit about your property and we'll get back to you with next steps.</p>
+    </div>
+
+    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="REPLACE_WITH_WEB3FORMS_ACCESS_KEY">
+      <input type="hidden" name="subject" value="New Quote Request from Mr. Striper Website">
+      <input type="checkbox" name="botcheck" class="form-honeypot" tabindex="-1" autocomplete="off">
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="cf-phone">Phone</label>
+          <input type="tel" id="cf-phone" name="phone" autocomplete="tel" required>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label for="cf-email">Email</label>
+        <input type="email" id="cf-email" name="email" autocomplete="email" required>
+      </div>
+
+      <div class="form-field">
+        <label for="cf-message">Tell us about your property</label>
+        <textarea id="cf-message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary" id="contactSubmitBtn">Send My Free Quote Request</button>
+
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
 <!-- FOOTER -->
-<footer class="site-footer" id="contact">
+<footer class="site-footer">
   <div class="wrap footer-inner">
     <span class="logo-badge" aria-hidden="true">
       <img src="images/logo.jpg" alt="">
