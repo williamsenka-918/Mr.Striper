@@ -702,15 +702,6 @@ nav.main-nav a.active {
   text-align: center;
 }
 
-.owner-section > .wrap > .eyebrow {
-  color: var(--yellow);
-  justify-content: center;
-}
-
-.owner-section > .wrap > .eyebrow::before {
-  background: var(--yellow);
-}
-
 .owner-section > .wrap > h2 {
   color: var(--white);
   margin-bottom: 40px;
