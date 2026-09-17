@@ -216,9 +216,9 @@ section {
 }
 
 .logo-badge {
-  width: 112px;
-  height: 112px;
-  border-radius: 18px;
+  width: 150px;
+  height: 150px;
+  border-radius: 22px;
   overflow: hidden;
   flex-shrink: 0;
   border: 2px solid var(--black);
