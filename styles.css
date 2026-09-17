@@ -295,6 +295,7 @@ header.site-header {
   top: 0;
   z-index: 100;
   background: var(--yellow);
+  border-bottom: 3px solid var(--black);
 }
 
 .header-inner {
