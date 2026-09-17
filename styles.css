@@ -395,6 +395,10 @@ nav.main-nav a.active {
   color: var(--yellow);
 }
 
+.final-cta h2 .accent {
+  color: var(--yellow);
+}
+
 .hero p {
   color: rgba(255, 255, 255, 0.86);
   font-size: 1.02rem;
