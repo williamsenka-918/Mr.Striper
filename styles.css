@@ -212,9 +212,9 @@ section {
 }
 
 .logo-badge {
-  width: 60px;
-  height: 60px;
-  border-radius: 12px;
+  width: 76px;
+  height: 76px;
+  border-radius: 14px;
   overflow: hidden;
   flex-shrink: 0;
   border: 2px solid var(--yellow);
@@ -988,6 +988,36 @@ footer.site-footer {
   height: 15px;
   fill: var(--yellow);
   flex-shrink: 0;
+}
+
+.footer-links h4 {
+  font-family: var(--font-body);
+  color: var(--white);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.footer-links li a {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.75);
+  transition: color 0.15s ease;
+}
+
+.footer-links li a:hover {
+  color: var(--yellow);
 }
 
 .footer-social {
