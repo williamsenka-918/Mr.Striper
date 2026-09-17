@@ -943,7 +943,7 @@ nav.main-nav a.active {
   background: var(--black);
   color: var(--white);
   text-align: center;
-  padding: 84px 0;
+  padding: 56px 0 84px;
 }
 
 .final-cta h2 {
