@@ -816,11 +816,11 @@ nav.main-nav a.active {
 .owner-section > .wrap > h2::after {
   content: "";
   display: block;
-  width: 100%;
+  width: 75%;
   height: 7px;
   background: var(--black);
   border-radius: 4px;
-  margin-top: 16px;
+  margin: 16px auto 0;
 }
 
 .owner-card {
