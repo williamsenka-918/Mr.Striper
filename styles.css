@@ -808,8 +808,16 @@ nav.main-nav a.active {
 
 .owner-section > .wrap > h2 {
   color: var(--black);
-  margin-bottom: 40px;
+  margin-bottom: 16px;
   font-size: 2.1rem;
+}
+
+.owner-heading-bar {
+  width: 70px;
+  height: 7px;
+  background: var(--black);
+  border-radius: 4px;
+  margin: 0 auto 34px;
 }
 
 .owner-card {
