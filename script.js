@@ -50,29 +50,6 @@ function initSite() {
       header.style.boxShadow = 'none';
     }
   });
-
-  // Work reel: autoplay slideshow
-  var reel = document.getElementById('workReel');
-  if (reel) {
-    var slides = reel.querySelectorAll('.reel-slide');
-    var dotsWrap = reel.querySelector('.reel-dots');
-    var current = 0;
-
-    slides.forEach(function (_, i) {
-      var dot = document.createElement('span');
-      if (i === 0) dot.classList.add('active');
-      dotsWrap.appendChild(dot);
-    });
-    var dots = dotsWrap.querySelectorAll('span');
-
-    setInterval(function () {
-      slides[current].classList.remove('active');
-      dots[current].classList.remove('active');
-      current = (current + 1) % slides.length;
-      slides[current].classList.add('active');
-      dots[current].classList.add('active');
-    }, 4000);
-  }
 }
 
 if (document.readyState === 'loading') {
