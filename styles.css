@@ -130,23 +130,23 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 16px 36px;
+  gap: 14px 22px;
 }
 
 .trust-badge {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   font-family: var(--font-body);
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   color: var(--white);
   white-space: nowrap;
 }
 
 .trust-badge svg {
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   stroke: var(--yellow);
   flex-shrink: 0;
 }
