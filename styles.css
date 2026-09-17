@@ -906,6 +906,21 @@ nav.main-nav a.active {
   margin-top: 28px;
 }
 
+.area-photo {
+  max-width: 480px;
+  margin: 32px auto 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid var(--yellow);
+  box-shadow: var(--shadow);
+}
+
+.area-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ---------- Final CTA ---------- */
 .final-cta {
   background: var(--black);
