@@ -700,6 +700,46 @@ nav.main-nav a.active {
   margin: 0;
 }
 
+/* ---------- How it works ---------- */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.step-num {
+  font-family: var(--font-head);
+  font-size: 2.6rem;
+  color: var(--white);
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.step-rule {
+  width: 44px;
+  height: 4px;
+  background: var(--yellow);
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.step h3 {
+  font-family: var(--font-head);
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
 /* ---------- Work reel ---------- */
 .reel-head {
   text-align: center;
@@ -1169,7 +1209,8 @@ footer.site-footer {
   }
 
   .services-grid,
-  .trust-grid {
+  .trust-grid,
+  .steps-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1225,7 +1266,8 @@ footer.site-footer {
   }
 
   .services-grid,
-  .trust-grid {
+  .trust-grid,
+  .steps-grid {
     grid-template-columns: 1fr;
   }
 
