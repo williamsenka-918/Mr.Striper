@@ -387,6 +387,31 @@ nav.main-nav a.active {
   top: 7px;
 }
 
+/* ---------- Page hero (interior pages) ---------- */
+.page-hero {
+  background: var(--black);
+  padding: 72px 0 64px;
+  text-align: center;
+}
+
+.page-hero .eyebrow {
+  justify-content: center;
+}
+
+.page-hero h1 {
+  color: var(--white);
+  font-size: 2.6rem;
+  max-width: 760px;
+  margin: 0 auto 18px;
+}
+
+.page-hero p {
+  color: rgba(255, 255, 255, 0.78);
+  max-width: 620px;
+  margin: 0 auto;
+  font-size: 1.02rem;
+}
+
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
@@ -1304,7 +1329,8 @@ footer.site-footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .hero h1 {
+  .hero h1,
+  .page-hero h1 {
     font-size: 2.3rem;
   }
 
@@ -1375,7 +1401,8 @@ footer.site-footer {
     text-align: center;
   }
 
-  .hero h1 {
+  .hero h1,
+  .page-hero h1 {
     font-size: 1.9rem;
   }
 }
