@@ -236,6 +236,26 @@ section {
   display: block;
 }
 
+/* ---------- Announcement bar ---------- */
+.announcement-bar {
+  background: var(--black);
+}
+
+.announcement-bar a {
+  display: block;
+  padding: 8px 24px;
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.announcement-bar a:hover {
+  color: var(--yellow);
+}
+
 /* ---------- Header ---------- */
 header.site-header {
   position: sticky;
