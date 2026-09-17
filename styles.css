@@ -873,7 +873,7 @@ nav.main-nav a.active {
   background: linear-gradient(120deg, var(--black), var(--charcoal) 75%);
   color: var(--white);
   text-align: center;
-  padding: 74px 0;
+  padding: 56px 0 74px;
 }
 
 .area-band .eyebrow {
