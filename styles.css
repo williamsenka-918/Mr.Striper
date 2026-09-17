@@ -713,19 +713,19 @@ nav.main-nav a.active {
 
 /* ---------- Owner section ---------- */
 .owner-section {
-  background: linear-gradient(160deg, var(--black) 0%, var(--charcoal) 130%);
+  background: var(--yellow);
   padding: 60px 0 90px;
   text-align: center;
 }
 
 .owner-section > .wrap > h2 {
-  color: var(--white);
+  color: var(--black);
   margin-bottom: 40px;
   font-size: 2.1rem;
 }
 
 .owner-card {
-  background: var(--white);
+  background: var(--charcoal);
   border-radius: 16px;
   box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
   padding: 44px;
@@ -765,14 +765,15 @@ nav.main-nav a.active {
   font-weight: 800;
   font-size: 1.3rem;
   margin: 0;
+  color: var(--white);
 }
 
 .owner-card p {
-  color: var(--ink);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .owner-sign {
-  color: var(--yellow-deep);
+  color: var(--yellow);
   font-weight: 700;
   font-family: var(--font-body);
   font-size: 0.9rem;
