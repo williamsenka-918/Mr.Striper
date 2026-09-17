@@ -1,6 +1,6 @@
 // Mr. Striper — small interactions
 
-document.addEventListener('DOMContentLoaded', function () {
+function initSite() {
   // Mobile nav toggle
   var toggle = document.getElementById('navToggle');
   var nav = document.getElementById('mainNav');
@@ -73,4 +73,10 @@ document.addEventListener('DOMContentLoaded', function () {
       dots[current].classList.add('active');
     }, 4000);
   }
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initSite);
+} else {
+  initSite();
+}
