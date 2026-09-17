@@ -487,7 +487,8 @@ nav.main-nav a.active {
   color: var(--white);
 }
 
-.section-dark .split-copy h2 {
+.section-dark .split-copy h2,
+#about-what .split-copy h2 {
   font-size: 2.1rem;
 }
 
