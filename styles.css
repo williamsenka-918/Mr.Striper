@@ -483,6 +483,7 @@ nav.main-nav a.active {
 
 .section-soft {
   background: var(--off-white);
+  padding-top: 56px;
 }
 
 /* ---------- Dark feature section ---------- */
