@@ -116,6 +116,10 @@ section {
   background: var(--black);
 }
 
+#how-it-works {
+  padding-top: 56px;
+}
+
 #trust-strip {
   padding-top: 56px;
 }
