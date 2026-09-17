@@ -487,6 +487,10 @@ nav.main-nav a.active {
   color: var(--white);
 }
 
+.section-dark .split-copy h2 {
+  font-size: 2.1rem;
+}
+
 .section-dark .split-art {
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.14);
