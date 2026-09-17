@@ -385,11 +385,11 @@ nav.main-nav a.active {
   color: var(--white);
 }
 
-.hero-trust {
+.hero .hero-trust {
   margin: 18px 0 0;
   font-family: var(--font-body);
   font-weight: 700;
-  font-size: 0.86rem;
+  font-size: 0.78rem;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.92);
 }
