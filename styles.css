@@ -115,6 +115,10 @@ section {
   padding-top: 56px;
 }
 
+#trust-strip {
+  padding-top: 56px;
+}
+
 /* ---------- Hazard stripe divider ---------- */
 .stripe-divider {
   height: 10px;
