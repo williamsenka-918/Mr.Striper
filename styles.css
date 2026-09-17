@@ -221,7 +221,7 @@ section {
   border-radius: 14px;
   overflow: hidden;
   flex-shrink: 0;
-  border: 2px solid var(--yellow);
+  border: 2px solid var(--black);
 }
 
 .logo-badge img {
@@ -932,8 +932,8 @@ nav.main-nav a.active {
 
 /* ---------- Footer ---------- */
 footer.site-footer {
-  background: var(--black);
-  color: rgba(255, 255, 255, 0.75);
+  background: var(--yellow);
+  color: rgba(13, 13, 13, 0.75);
   padding: 50px 0 0;
 }
 
@@ -948,7 +948,7 @@ footer.site-footer {
 
 .footer-contact h4 {
   font-family: var(--font-body);
-  color: var(--white);
+  color: var(--black);
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -976,13 +976,13 @@ footer.site-footer {
 .footer-contact svg {
   width: 15px;
   height: 15px;
-  fill: var(--yellow);
+  fill: var(--black);
   flex-shrink: 0;
 }
 
 .footer-links h4 {
   font-family: var(--font-body);
-  color: var(--white);
+  color: var(--black);
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1002,12 +1002,13 @@ footer.site-footer {
 
 .footer-links li a {
   font-size: 0.92rem;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(13, 13, 13, 0.75);
   transition: color 0.15s ease;
 }
 
 .footer-links li a:hover {
-  color: var(--yellow);
+  color: var(--black);
+  text-decoration: underline;
 }
 
 .footer-social {
@@ -1019,7 +1020,7 @@ footer.site-footer {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(13, 13, 13, 0.35);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1027,30 +1028,30 @@ footer.site-footer {
 }
 
 .footer-social a:hover {
-  background: var(--yellow);
-  border-color: var(--yellow);
+  background: var(--black);
+  border-color: var(--black);
 }
 
 .footer-social a:hover svg {
-  fill: var(--black);
+  fill: var(--white);
 }
 
 .footer-social svg {
   width: 15px;
   height: 15px;
-  fill: var(--white);
+  fill: var(--black);
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(13, 13, 13, 0.15);
   padding: 18px 0;
   text-align: center;
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(13, 13, 13, 0.65);
 }
 
 .footer-bottom a {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(13, 13, 13, 0.85);
   text-decoration: underline;
 }
 
