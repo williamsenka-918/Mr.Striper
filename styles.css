@@ -121,7 +121,7 @@ section {
 
 /* ---------- Trust badges ---------- */
 .trust-badges {
-  background: var(--off-white);
+  background: var(--charcoal);
   padding: 26px 0;
 }
 
@@ -140,14 +140,14 @@ section {
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 0.9rem;
-  color: var(--ink);
+  color: var(--white);
   white-space: nowrap;
 }
 
 .trust-badge svg {
   width: 22px;
   height: 22px;
-  stroke: var(--yellow-deep);
+  stroke: var(--yellow);
   flex-shrink: 0;
 }
 
