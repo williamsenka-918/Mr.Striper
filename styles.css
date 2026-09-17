@@ -32,6 +32,13 @@ html {
   scroll-behavior: smooth;
 }
 
+#hero,
+#about,
+#services,
+#contact {
+  scroll-margin-top: 79px;
+}
+
 body {
   margin: 0;
   font-family: var(--font-body);
@@ -698,7 +705,7 @@ nav.main-nav a.active {
 /* ---------- Owner section ---------- */
 .owner-section {
   background: linear-gradient(160deg, var(--black) 0%, var(--charcoal) 130%);
-  padding: 90px 0;
+  padding: 60px 0 90px;
   text-align: center;
 }
 
