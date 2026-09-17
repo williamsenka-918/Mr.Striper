@@ -782,6 +782,10 @@ nav.main-nav a.active {
   margin-bottom: 40px;
 }
 
+.faq-head h2 {
+  font-size: 2.1rem;
+}
+
 .faq-head .eyebrow {
   justify-content: center;
 }
