@@ -412,6 +412,72 @@ nav.main-nav a.active {
   font-size: 1.02rem;
 }
 
+/* ---------- Service detail sections ---------- */
+.service-feature-list {
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.service-feature-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  line-height: 1.4;
+}
+
+.service-feature-list svg {
+  width: 18px;
+  height: 18px;
+  stroke: var(--yellow-deep);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.section-dark .service-feature-list svg {
+  stroke: var(--yellow);
+}
+
+.service-faq {
+  margin-top: 26px;
+  padding: 16px 20px;
+  border-left: 3px solid var(--yellow);
+  background: rgba(13, 13, 13, 0.04);
+  border-radius: 0 8px 8px 0;
+}
+
+.section-dark .service-faq {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.service-faq .service-faq-q {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--black);
+  margin: 0 0 6px;
+}
+
+.section-dark .service-faq .service-faq-q {
+  color: var(--white);
+}
+
+.service-faq .service-faq-a {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--gray-mid);
+  margin: 0;
+}
+
+.section-dark .service-faq .service-faq-a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
